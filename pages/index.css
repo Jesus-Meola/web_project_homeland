@@ -226,3 +226,55 @@
     
 }
 
+.cover {
+    max-width: 1184px;
+    max-height: 740px;
+    color: #FFFFFF;
+    background-image: url(/images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+    padding: 200px 0;
+
+    
+    
+}
+
+.cover__content {
+    max-width: 656px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.cover__title {
+    color: #FFFDFD;
+    text-align: center;
+    font-size: 72px;
+    line-height: 76px;
+    font-weight: 900;
+    margin: 0 auto;
+}
+
+.cover__subtitle {
+    max-width: 200px;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 400;
+    margin: 0 auto;
+    text-align: center
+}
+
+.cover__button {
+    background-color: #0278FE;
+    max-width: 198px;
+    margin: 0 auto;
+    padding: 0px 25px;
+    border-radius: 4px;
+}
+
+.cover__button-paragraph {
+    color: #FFFFFF;
+}
