@@ -235,9 +235,7 @@
     background-repeat: no-repeat;
     background-position: center;
     margin: auto;
-    padding: 200px 0;
-
-    
+    padding: 250px 0;  
     
 }
 
@@ -247,6 +245,7 @@
     flex-direction: column;
     justify-content: center;
     margin: 0 auto;
+    gap: 30px;
 }
 
 .cover__title {
@@ -256,6 +255,7 @@
     line-height: 76px;
     font-weight: 900;
     margin: 0 auto;
+    text-align: center;
 }
 
 .cover__subtitle {
@@ -271,10 +271,24 @@
     background-color: #0278FE;
     max-width: 198px;
     margin: 0 auto;
-    padding: 0px 25px;
+    padding: 0px 30px;
     border-radius: 4px;
 }
 
 .cover__button-paragraph {
     color: #FFFFFF;
 }
+
+.footer {
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    padding: 100px 0 10px;
+}
+
+.footer__copyright {
+    max-width: 191px;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+}  
