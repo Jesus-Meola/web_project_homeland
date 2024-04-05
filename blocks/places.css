@@ -1,0 +1,168 @@
+.places {
+    color: #FFFFFF;
+    max-width: 987px;
+    margin: 92px auto;
+    padding: 0;
+    
+
+}
+
+.places__content {
+    max-width: 987px;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.places__cities {
+    display: grid;
+    grid-template-areas: 
+    "title name" 
+    "image paragraph" 
+    "button paragraph";
+    grid-template-rows: auto 460px auto;
+    grid-template-columns: 460px auto;
+    gap: 30px;
+    
+}
+
+.place__title {
+    grid-area: title;
+    grid-column: 1/3;
+    max-width: 460px;
+    font-size: 72px;
+    line-height: 76px;
+    font-weight: 900;
+    margin: 0px 0 15px;
+}
+
+
+.place__title_size_xl {
+    max-width: 584px;
+}
+
+.place__name {
+    grid-area: name;
+    align-self: end;
+    margin-bottom: 30px;
+}
+
+.place__name-heading {
+    font-size: 12px;
+    line-height: 14.52px;
+    font-weight: 400;
+    color: #AAAAAA;
+    
+}
+
+.place__name-artist {
+    font-size: 18px;
+    line-height:22px;
+    font-weight: 400;
+    margin: 0;   
+}
+
+.place__image {
+    grid-area: image;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.place__paragraph {
+    grid-area: paragraph;
+    grid-row: -3/-1;
+    
+}
+
+.place__paragraph-text {
+    margin: 0 0 20px;
+    font-size: 18px;
+    line-height: 29.34px;
+    font-weight: 400;
+}
+
+.place__button {
+    grid-area: button;
+    background-color: #0278FE;
+    padding: 13px 18px;
+    border-radius: 4px;
+    margin: 0;
+    max-width: 355px;
+    align-self: start;
+    
+}
+
+.place__button:hover {
+    background-color: #0063D2;
+}
+
+.place__button-paragraph {
+    font-size: 18px;
+    line-height: 21.78px;
+    font-weight: 600;  
+    text-decoration: none;
+    color: #FFFFFF;
+  
+}
+
+@media screen and (max-width: 840px) {
+    .place__title {
+        font-size: 42px;
+        line-height: 46px;
+        font-weight: 900;
+        max-width: 340px;
+        grid-column: 1;
+    }
+    .place__paragraph-text {
+        font-size: 16px;
+        line-height: 26.08px;
+    }
+    .places__cities {
+        grid-template-rows: auto 340px auto;
+        grid-template-columns: 340px auto;
+    }
+    .place__button {
+        grid-column: 1/3;
+    }
+    
+}
+
+@media screen and (max-width: 350px) {
+
+    .place__title {
+        font-size: 32px;
+        line-height: 35px;
+         
+    }   
+}
+
+@media screen and (max-width: 750px) {
+    
+    .places__cities {
+        display: block;
+    }
+    
+    .place__paragraph-text {
+        font-size: 16px;
+        line-height: 26.08px;
+        font-weight: 400;
+    }
+    
+    .place__button-paragraph {
+        font-size: 14px;
+        line-height: 16.94px;
+        font-weight: 600; 
+    
+    }
+}
+
+@media screen and (max-width: 340px) {
+
+    .place__button {
+        max-width: 288px;
+        padding: 13px 15px;
+    }
+}
