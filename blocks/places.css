@@ -15,7 +15,7 @@
     gap: 50px;
 }
 
-.places__cities {
+.place__citie {
     display: grid;
     grid-template-areas:
     "title name"
