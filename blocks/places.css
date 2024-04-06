@@ -121,7 +121,7 @@
         font-size: 16px;
         line-height: 26.08px;
     }
-    .places__cities {
+    .places__citie {
         grid-template-rows: auto 340px auto;
         grid-template-columns: 340px auto;
     }
@@ -143,7 +143,7 @@
 
 @media screen and (max-width: 750px) {
 
-    .places__cities {
+    .places__citie {
         display: block;
     }
 
